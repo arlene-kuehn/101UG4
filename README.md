@@ -1,3 +1,14 @@
+## Overview ##
+https://github.com/UG4/ugcore provides a short introduction to several example scripts (with pictures).
+
+
+## How to execute the script ##
+Once you compiled UG4 you may execute the script like this:
+
+cd ug4/runs 
+
+ugshell -ex Examples/reverseOsmosis.lua -stokes
+
 # 101UG4
 Very first steps with UG4
 g++ compiler wurde benötigt:

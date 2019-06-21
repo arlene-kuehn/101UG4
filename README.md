@@ -1,25 +1,23 @@
-## Overview ##
+# Overview
 https://github.com/UG4/ugcore provides a short introduction to several example scripts (with pictures).
 
 
-## How to execute the script ##
+# How to execute the script
 Once you compiled UG4 you may execute the script like this:
 
+`` bash
 cd ug4/runs 
-
 ugshell -ex Examples/reverseOsmosis.lua -stokes
+``
+
 
 # 101UG4
 Very first steps with UG4
-g++ compiler wurde benötigt:
+g++ compiler is required:
 sudo apt-get install g++
 
 # Instalation of BLAS and LAPACK
 sudo apt-get install libopenblas-dev liblapack-de
-
-Parameter lua-script:
-vorder: Order of velocity-space
-porder: Order of pressure-space
 
 
 http://ug4.github.io/docs/index.html
@@ -27,8 +25,6 @@ http://www.sppexa.de/fileadmin/user_upload/Teachlets/exasolvers_ug4.pdf
 
 # Questions
 where to find toturials? http://ug4.github.io/docs/page_script_tutorial.html
-
-ERROR/ BACK in Laplace.lua
 
 
 # lectures

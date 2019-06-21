@@ -17,8 +17,9 @@ g++ compiler is required:
 sudo apt-get install g++
 
 # Instalation of BLAS and LAPACK
+``bash
 sudo apt-get install libopenblas-dev liblapack-de
-
+``
 
 http://ug4.github.io/docs/index.html
 http://www.sppexa.de/fileadmin/user_upload/Teachlets/exasolvers_ug4.pdf
